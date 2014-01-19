@@ -1,5 +1,5 @@
 mongodb:
-  server:   process.env.OPENSHIFT_MONGODB_DB_HOST
+  server:   <%= ENV['OPENSHIFT_MONGODB_DB_HOST'] %>
   database: uptime
   user:     admin 
   password: F8Ts8V2jC6ke
